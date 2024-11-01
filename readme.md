@@ -22,5 +22,5 @@ This project aims to mimic the YouTube homepage layout and features. It serves a
 ## Project Structure
 
 ```plaintext
-├── index.html         # Main HTML file
-├── styles.css         # CSS file for styling
+├── Youtube.html         # Main HTML file
+├── youtube.css         # CSS file for styling
