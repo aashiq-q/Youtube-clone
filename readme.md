@@ -2,7 +2,8 @@
 
 A YouTube homepage clone created using HTML and CSS. This project replicates the layout and styling of the YouTube homepage, focusing on the fundamentals of HTML and CSS for practice.
 
-![YouTube Clone Screenshot](./Screenshot%20from%202024-11-01%2020-43-16.png)
+![YouTube Clone Screenshot](./youtube-clone/Screenshot%20from%202024-11-01%2020-43-16.png)
+
 
 ## Project Overview
 
