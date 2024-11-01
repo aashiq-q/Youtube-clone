@@ -1,0 +1,157 @@
+.link{
+  color: rgb(6, 86, 133);
+}
+.link:hover{
+  color: orange;
+}
+.heading{
+  font-size: x-large;
+  font-weight: bolder;
+}
+.price{
+  color: green;
+  font-weight: bold;
+}
+.cart{
+  background-color: rgb(255, 221, 0);
+  border: none;
+  height: 26px;
+  width: 100px;
+  border-radius: 13px;
+  font-weight: medium;
+  margin-right: 10px;
+  transition: backgroud-color 0.4s, box-shadow 0.4s;
+}
+.cart:hover{
+  background-color: rgb(255, 200, 0); 
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.cart:active{
+  opacity: 0.5;
+}
+.buy{
+  background-color: rgb(255, 162, 0);
+  border: none;
+  height: 26px;
+  width: 100px;
+  border-radius: 13px;
+  font-weight: medium;
+  transition: backgroud-color 0.4s, box-shadow 0.4s;
+  margin-bottom: 10px;
+}
+.buy:hover{
+  background-color: rgb(255, 140, 0); 
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.buy:active{
+  opacity: 0.5;
+}
+.deal{
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.timeline{
+  font-family: Arial;
+  font-style: italic;
+  color: rgb(255, 30, 0); 
+  font-size: 18px;
+  margin-top: 0px;
+}
+.shopping{
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: bolder;
+  width: 380px;
+  line-height: 40px;
+}
+.help{
+  font-size: 13px;
+  font-weight: normal;
+  padding-left: 80px;
+  padding-right: 60px;
+}
+.learn{
+  font-size: 13px;
+  font-weight: normal;
+  padding-left: 150px;
+  padding-right: 60px;
+  line-height: 30px;
+  color: rgb(0, 136, 255);
+  text-decoration: underline;
+}
+.image{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 175px;
+}
+.search{
+  font-size: 26px;
+  width: 700px;
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  border-width: 0px;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.5);
+  margin-right: 40px;
+  margin-bottom: 50px;
+
+}
+.container{
+  display: flex;
+  gap: 20px;
+
+}
+.icon{
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+}
+
+.question{
+  font-size: 20px;
+  font-family: Arial;
+  margin-top: 23px;
+}
+.tweet{
+  background-color: rgb(0, 128, 255);
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  transition: backgroud-color 0.4s, box-shadow 0.4s;
+  margin-top: 15px;
+  margin-left: 60px;
+  box-shadow: 1px 5px 12px rgba(0, 0, 0, 0.5);
+
+}
+.tweet:active{
+  opacity: 0.5;
+}
+.survey{
+  width: 250px;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+.first-name,.last-name{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 10px;
+  width: 150px;
+  margin-bottom: 0px;
+}
+.email{
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 57px;
+}

@@ -1,0 +1,229 @@
+/*General CSS*/
+p{
+  font-family: Roboto;
+}
+body{
+  margin: 0;
+  height: 3000px;
+  padding-top: 130px;
+  padding-left: 160px;
+  background-color: rgb(242, 240, 240);
+}
+/*Header CSS*/
+
+.header{
+ display: flex;
+ flex-direction: row;
+ height: 100px;
+ justify-content: space-between;
+ background-color: white;
+ left: 0px;
+ right: 0px;
+ top: 0px;
+ position: fixed;
+ border-bottom: 1px solid;
+ border-color: rgb(192, 192, 192);
+ z-index: 1;
+}
+
+.left-side{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.center{
+  width: 800px;
+  max-width: 800px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+.search-icon{
+  height: 50px;
+  border: 1px solid;
+  margin-left: -2px;
+  margin-top: 4px;
+  border-color: rgb(209, 204, 204);
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 2px;
+  background-color: rgb(240, 239, 239);
+}
+.search-tooltip{
+  position: relative;
+}
+.search-tooltip .tooltip{
+  position: absolute;
+  left: 10px;
+  bottom: -80px;
+  font-size: 20px;
+  background-color: rgb(83, 82, 82);
+  color: white;
+  padding: 14px 16px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+.search-tooltip:hover .tooltip{
+  opacity: 0.8;
+}
+.voice-icon{
+  height: 45px;
+  padding: 11px 11px;
+  border-radius: 50px;
+  margin-left: 20px;
+  background-color: rgb(240, 239, 239);
+}
+.right-side{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 26px;
+  flex-shrink: 0;
+  position: relative;
+}
+.notify-num{
+  position: absolute;
+  right: 90px;
+  top: 8px;
+  border: 2px solid;
+  font-size: 20px;
+  border-radius: 100px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-color: white;
+  background-color: rgb(196, 2, 2);
+  color: white;
+
+}
+.menu-bar{
+  height: 45px;
+  margin-left: 45px; 
+}
+.youtube-logo{
+  height: 35px;
+  margin-left: 40px;
+}
+.search-bar{
+  height: 68px;
+  width: 0px;
+  flex: 1;
+  font-size: 30px;
+  padding-left: 20px;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: rgb(209, 204, 204);
+}
+.live-icon, .apps-icon, .bell-icon{
+  height: 40px;
+}
+.profile-img{
+  height: 60px;
+}
+
+/*side bar*/
+.sidebar{
+  position: fixed;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  top: 100px;
+  width: 135px;
+}
+button{
+  width: 100%;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  border: 0;
+  background-color: white;
+}
+button:hover{
+  background-color: rgb(212, 212, 212);
+}
+.home-icon{
+  height: 45px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.explore-icon{
+  height: 45px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.subscriptions-icon{
+  height: 45px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.originals-icon{
+  height: 45px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.ytmusic-icon{
+  height: 45px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.library-icon{
+  height: 45px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+
+
+/*Video CSS*/
+
+.video-img{
+  width: 100%;
+  position: relative;
+}
+.title{
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 25px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.set{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 65px 1fr;
+}
+.video-preview, .video-preview2{
+  position: relative;
+}
+.video-time{
+  color: white;
+  background-color: black;
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+  font-size: 20px;
+  padding: 5px 10px;
+  font-family: Roboto;
+}

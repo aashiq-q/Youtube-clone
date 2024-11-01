@@ -1,0 +1,38 @@
+p{
+  font-family: Roboto;
+}
+.title{
+  font-weight: bolder;
+  font-size: 30px;
+  width: 480px;
+  margin-bottom: 6px;
+}
+.views{
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.name{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: rgb(96, 96, 96);
+}
+.para{ 
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: rgb(96, 96, 96);
+  width: 320px;
+  line-height: 26px;
+}
+.end{
+  font-size: 18px;
+  background-color: rgb(219, 26, 26);
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+.link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
